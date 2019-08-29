@@ -1,0 +1,25 @@
+<package>
+    <name>linorobot_pkgs</name>
+    <version>1.4.1</version>
+    <description>ROS compatible ground robots</description>
+    <maintainer email="jimenojmm@gmail.com">t</maintainer>
+
+    <license>BSD</license>
+
+    <url type="website">http://www.linorobot.org</url>
+
+    <author email="jimenojmm@gmail.com">Juan Miguel Jimeno</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <run_depend>linorobot</run_depend>
+  <run_depend>lino_msgs</run_depend>
+  <run_depend>lino_pid</run_depend>
+  <run_depend>lino_udev</run_depend>
+  <run_depend>lino_visualize</run_depend>
+  <run_depend>imu_calib</run_depend>
+  
+  <export>
+    <metapackage/>
+  </export>
+</package>
